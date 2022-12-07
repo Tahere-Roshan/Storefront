@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "secretStore": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.KeyVault/vaults/Storefront20221206102836",
+      "type": "secrets.keyVault",
+      "connectionId": "VaultUri"
+    },
+    "compute.appService1": {
+      "group": "connections",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/Storefront20221206151127",
+      "type": "compute.appService.windows"
+    },
+    "apis1": {
+      "ignored": "True",
+      "type": "apis"
+    }
+  }
+}

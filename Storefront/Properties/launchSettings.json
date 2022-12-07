@@ -1,0 +1,45 @@
+{
+  "profiles": {
+    "Storefront": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VaultUri": "https://storefront20221206102836.vault.azure.net/",
+        "AZURE_USERNAME": "taro0005@student.hv.se"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5095"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VaultUri": "https://storefront20221206102836.vault.azure.net/",
+        "AZURE_USERNAME": "taro0005@student.hv.se"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "publishAllPorts": true,
+      "environmentVariables": {
+        "VaultUri": "https://storefront20221206102836.vault.azure.net/",
+        "AZURE_USERNAME": "taro0005@student.hv.se"
+      }
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:16607",
+      "sslPort": 0
+    }
+  }
+}
