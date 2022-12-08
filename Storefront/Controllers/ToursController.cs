@@ -16,6 +16,17 @@ namespace Storefront.Controllers
     {
         private readonly TourContext _context;
 
+        
+        //public class checkoutcontroller : Microsoft.AspNetCore.Mvc.Controller
+        //{
+        //    [HttpGet]
+        //    public IEnumerable<string> Get()
+        //    {
+        //        return new string[] { "This is just to Test the API" };
+        //    }
+
+        //}
+
         public ToursController(TourContext context)
         {
             _context = context;
